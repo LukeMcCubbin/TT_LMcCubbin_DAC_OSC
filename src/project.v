@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_example (
+module tt_um_LukeMcCubbin_DAC_OSC (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply
@@ -20,4 +20,45 @@ module tt_um_example (
     input  wire       rst_n     // reset_n - low to reset
 );
 
+    tt_um_tt05_analog_test tt_um_tt05_analog_test(
+        .VPWR(VDPWR),
+        .VGND(VGND),
+        .clk(ua[0]),
+        .dac(ua[1]),
+        .dac0(ui_in[0]),
+        .dac1(ui_in[1]),
+        .dac2(ui_in[2]),
+        .out_dac(ui_in[3]),
+        .out_ro(ui_in[5]),
+        .enable(ui_in[6]),
+        .out_short(ui_in[7])
+    );
+
+    assign uo_out[0] = VGND;
+    assign uo_out[1] = VGND;
+    assign uo_out[2] = VGND;
+    assign uo_out[3] = VGND;
+    assign uo_out[4] = VGND;
+    assign uo_out[5] = VGND;
+    assign uo_out[6] = VGND;
+    assign uo_out[7] = VGND;
+
+    assign uio_out[0] = VGND;
+    assign uio_out[1] = VGND;
+    assign uio_out[2] = VGND;
+    assign uio_out[3] = VGND;
+    assign uio_out[4] = VGND;
+    assign uio_out[5] = VGND;
+    assign uio_out[6] = VGND;
+    assign uio_out[7] = VGND;
+
+    assign uio_oe[0] = VGND;
+    assign uio_oe[1] = VGND;
+    assign uio_oe[2] = VGND;
+    assign uio_oe[3] = VGND;
+    assign uio_oe[4] = VGND;
+    assign uio_oe[5] = VGND;
+    assign uio_oe[6] = VGND;
+    assign uio_oe[7] = VGND;
+    
 endmodule

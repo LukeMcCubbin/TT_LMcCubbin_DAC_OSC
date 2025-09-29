@@ -9,12 +9,20 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Credit to Harald Pretl and Jakob Ratschenberger, Institute for Integrated Circuits, Johannes Kepler University, Linz, Austria for the design of this circuit for TinyTapeout 5
+Analog test (500kHz ring oscillator and 3-bit R-2R DAC) .
+
+Nominal supply voltage: 1.8V
+
+Two test outputs:
+
+    Clock output (rail-rail) at ca. 500kHz
+    DAC voltage vout=1.8V / 8 * in (0...7)
+
 
 ## How to test
 
-Explain how to use your project
+Apply digital bit input to input bits 0-2 and measure output with voltmeter/osciloscope
 
-## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+
