@@ -33,32 +33,32 @@ module tt_um_LukeMcCubbin_DAC_OSC (
         .enable(ui_in[6]),
         .out_short(ui_in[7])
     );
+    
+    assign uo_out[0] = res_xhigh_po_0p35;
+    assign uo_out[1] = res_xhigh_po_0p35;
+    assign uo_out[2] = res_xhigh_po_0p35;
+    assign uo_out[3] = res_xhigh_po_0p35;
+    assign uo_out[4] = res_xhigh_po_0p35;
+    assign uo_out[5] = res_xhigh_po_0p35;
+    assign uo_out[6] = res_xhigh_po_0p35;
+    assign uo_out[7] = res_xhigh_po_0p35;
 
-    assign uo_out[0] = VGND;
-    assign uo_out[1] = VGND;
-    assign uo_out[2] = VGND;
-    assign uo_out[3] = VGND;
-    assign uo_out[4] = VGND;
-    assign uo_out[5] = VGND;
-    assign uo_out[6] = VGND;
-    assign uo_out[7] = VGND;
+    assign uio_out[0] = res_xhigh_po_0p35;
+    assign uio_out[1] = res_xhigh_po_0p35;
+    assign uio_out[2] = res_xhigh_po_0p35;
+    assign uio_out[3] = res_xhigh_po_0p35;
+    assign uio_out[4] = res_xhigh_po_0p35;
+    assign uio_out[5] = res_xhigh_po_0p35;
+    assign uio_out[6] = res_xhigh_po_0p35;
+    assign uio_out[7] = res_xhigh_po_0p35;
 
-    assign uio_out[0] = VGND;
-    assign uio_out[1] = VGND;
-    assign uio_out[2] = VGND;
-    assign uio_out[3] = VGND;
-    assign uio_out[4] = VGND;
-    assign uio_out[5] = VGND;
-    assign uio_out[6] = VGND;
-    assign uio_out[7] = VGND;
-
-    assign uio_oe[0] = VGND;
-    assign uio_oe[1] = VGND;
-    assign uio_oe[2] = VGND;
-    assign uio_oe[3] = VGND;
-    assign uio_oe[4] = VGND;
-    assign uio_oe[5] = VGND;
-    assign uio_oe[6] = VGND;
-    assign uio_oe[7] = VGND;
+    assign uio_oe[0] = res_xhigh_po_0p35;
+    assign uio_oe[1] = res_xhigh_po_0p35;
+    assign uio_oe[2] = res_xhigh_po_0p35;
+    assign uio_oe[3] = res_xhigh_po_0p35;
+    assign uio_oe[4] = res_xhigh_po_0p35;
+    assign uio_oe[5] = res_xhigh_po_0p35;
+    assign uio_oe[6] = res_xhigh_po_0p35;
+    assign uio_oe[7] = res_xhigh_po_0p35;
     
 endmodule

@@ -1,0 +1,70 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1759517188
+<< error_s >>
+rect 5205 -329 5258 -328
+rect 5187 -363 5258 -329
+rect 5188 -364 5258 -363
+rect 5205 -398 5276 -364
+rect 2109 -2139 2144 -2122
+rect 2110 -2140 2144 -2139
+rect 2110 -2176 2180 -2140
+rect 2127 -2210 2198 -2176
+rect 2127 -2571 2197 -2210
+rect 2127 -2607 2180 -2571
+rect 4468 -2624 4483 -2176
+rect 4502 -2624 4536 -2122
+rect 4502 -2658 4517 -2624
+rect 5205 -2677 5275 -398
+rect 5927 -2299 5961 -2281
+rect 8319 -2299 8353 -2281
+rect 5927 -2335 5997 -2299
+rect 5944 -2369 6015 -2335
+rect 5205 -2713 5258 -2677
+rect 5944 -2730 6014 -2369
+rect 5944 -2766 5997 -2730
+rect 8283 -2783 8353 -2299
+rect 8283 -2819 8336 -2783
+<< metal1 >>
+rect 8450 1890 8650 2090
+rect 8450 1490 8650 1690
+rect 8450 1090 8650 1290
+rect 8450 690 8650 890
+rect 8450 290 8650 490
+use sky130_fd_pr__pfet_01v8_63UHCN  XM1
+timestamp 1759510403
+transform 1 0 984 0 1 -2338
+box -1196 -269 1196 269
+use sky130_fd_pr__nfet_01v8_NUZLMJ  XM2A
+timestamp 1759510403
+transform 1 0 3323 0 1 -2400
+box -1196 -260 1196 260
+use sky130_fd_pr__nfet_01v8_NUZLMJ  XM2B
+timestamp 1759510403
+transform 1 0 7140 0 1 -2559
+box -1196 -260 1196 260
+use sky130_fd_pr__nfet_01v8_NXKS9S  XMcap1
+timestamp 1759510403
+transform 1 0 4862 0 1 -1503
+box -396 -1210 396 1210
+use sky130_fd_pr__pfet_01v8_9QMKNM  XMcap2
+timestamp 1759510403
+transform 1 0 5601 0 1 -1547
+box -396 -1219 396 1219
+use sky130_fd_pr__pfet_01v8_GGAEPD  XMpowerdn
+timestamp 1759510403
+transform 1 0 8579 0 1 -1653
+box -296 -1219 296 1219
+<< labels >>
+flabel metal1 8450 1890 8650 2090 0 FreeSans 256 0 0 0 vdd
+port 0 nsew
+flabel metal1 8450 1490 8650 1690 0 FreeSans 256 0 0 0 ena
+port 1 nsew
+flabel metal1 8450 1090 8650 1290 0 FreeSans 256 0 0 0 in
+port 2 nsew
+flabel metal1 8450 690 8650 890 0 FreeSans 256 0 0 0 out
+port 3 nsew
+flabel metal1 8450 290 8650 490 0 FreeSans 256 0 0 0 vss
+port 4 nsew
+<< end >>

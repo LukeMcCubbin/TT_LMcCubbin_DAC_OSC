@@ -1,0 +1,89 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1759518365
+<< metal1 >>
+rect 5162 -3216 5362 -3016
+rect 5162 -3616 5362 -3416
+rect 5162 -4016 5362 -3816
+rect 5162 -4416 5362 -4216
+rect 5162 -4816 5362 -4616
+rect 5162 -5216 5362 -5016
+use dac_drv  xdrv_b0
+timestamp 1759517891
+transform 1 0 8998 0 1 -4290
+box -1036 -1928 4850 194
+use dac_drv  xdrv_b1
+timestamp 1759517891
+transform 1 0 8514 0 1 -1638
+box -1036 -1928 4850 194
+use dac_drv  xdrv_b2
+timestamp 1759517891
+transform 1 0 8458 0 1 790
+box -1036 -1928 4850 194
+use dac_drv  xdrv_dummy
+timestamp 1759517891
+transform 1 0 8892 0 1 -7206
+box -1036 -1928 4850 194
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR1
+timestamp 1759510403
+transform 1 0 20225 0 1 -4266
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR2
+timestamp 1759510403
+transform 1 0 20347 0 1 -2136
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR3
+timestamp 1759510403
+transform 1 0 17521 0 1 -394
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR4
+timestamp 1759510403
+transform 1 0 15595 0 1 -578
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR5
+timestamp 1759510403
+transform 1 0 17357 0 1 -2832
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR6
+timestamp 1759510403
+transform 1 0 15533 0 1 -2812
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR8
+timestamp 1759510403
+transform 1 0 15881 0 1 -5474
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR9
+timestamp 1759510403
+transform 1 0 17255 0 1 -5434
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR10
+timestamp 1759510403
+transform 1 0 17173 0 1 -8280
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XR11
+timestamp 1759510403
+transform 1 0 16025 0 1 -8362
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XRdummy1
+timestamp 1759510403
+transform 1 0 21199 0 1 -8388
+box -201 -722 201 722
+use sky130_fd_pr__res_xhigh_po_0p35_ABVTW2  XRdummy2
+timestamp 1759510403
+transform 1 0 22493 0 1 -8456
+box -201 -722 201 722
+<< labels >>
+flabel metal1 5162 -3216 5362 -3016 0 FreeSans 256 0 0 0 vdd
+port 0 nsew
+flabel metal1 5162 -3616 5362 -3416 0 FreeSans 256 0 0 0 vout
+port 1 nsew
+flabel metal1 5162 -4016 5362 -3816 0 FreeSans 256 0 0 0 in2
+port 2 nsew
+flabel metal1 5162 -4416 5362 -4216 0 FreeSans 256 0 0 0 in1
+port 3 nsew
+flabel metal1 5162 -4816 5362 -4616 0 FreeSans 256 0 0 0 in0
+port 4 nsew
+flabel metal1 5162 -5216 5362 -5016 0 FreeSans 256 0 0 0 vss
+port 5 nsew
+<< end >>

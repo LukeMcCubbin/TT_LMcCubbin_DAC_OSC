@@ -1,0 +1,11 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1759507755
+<< checkpaint >>
+rect -1313 -23197 35932 46412
+use tt_um_tt05_analog_test  x1
+timestamp 1759507755
+transform 1 0 0 0 1 0
+box -53 -21937 34672 45152
+<< end >>

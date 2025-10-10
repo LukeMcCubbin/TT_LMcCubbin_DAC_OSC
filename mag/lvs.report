@@ -1,0 +1,493 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p35 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p35 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_0p35 |Circuit 2: sky130_fd_pr__res_xhigh_po_0p35 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
+Flattening unmatched subcell tt_um_tt05_analog_test_cell in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xdrv_b1_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4A_xdrv_b0_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR19 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xdrv_dummy_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2_xtgro in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR8 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR17 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR24 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xbuf3_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4B_xdrv_b2_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4B_xtgro in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xro3_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR6 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR22 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xdrv_dummy_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4A_xdrv_b1_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR15 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xdrv_b2_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xbuf2_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4A_xtgdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xbuf3_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xro2_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR4 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR20 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR13 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xro1_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2_xtgbyp in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xbuf1_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM3_xtgdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4B_xdrv_dummy_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xbuf2_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xtgro in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM3_xdrv_b0_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR2 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xdrv_b0_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4A_xdrv_b2_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR11 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4A_xtgro in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xbuf1_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XMpowerdn_xro3_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM3_xdrv_b1_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR9 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XRSTR_0_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xdrv_b1_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XMcap1_xro3_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XMpowerdn_xro2_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR18 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xtgbyp in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xdrv_dummy_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2_xtgdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xro3_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4B_xtgbyp in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR23 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xdrv_b0_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XMcap1_xro2_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XMpowerdn_xro1_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR7 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR16 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM3_xdrv_b2_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xbuf3_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xro2_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xdrv_b2_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR5 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR21 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4B_xdrv_b0_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XMcap1_xro1_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XMcap2_xro3_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR14 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xbuf2_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xdrv_b1_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xro1_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM3_xtgro in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR3 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xro3_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XMcap2_xro2_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR12 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xdrv_b0_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM3_xdrv_dummy_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM1_xtgdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xbuf1_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xro2_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4A_xdrv_dummy_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4A_xtgbyp in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR1 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XR10 in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4B_xdrv_b1_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM4B_xtgdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XMcap2_xro1_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2A_xdrv_b2_xdac in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM2B_xro1_xringosc in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell XM3_xtgbyp in circuit tt_um_tt05_analog_test (0)(1 instance)
+Flattening unmatched subcell dac in circuit tt_um_tt05_analog_test (1)(1 instance)
+Flattening unmatched subcell dac_drv in circuit tt_um_tt05_analog_test (1)(4 instances)
+Flattening unmatched subcell ringosc in circuit tt_um_tt05_analog_test (1)(1 instance)
+Flattening unmatched subcell ringosc_delay in circuit tt_um_tt05_analog_test (1)(3 instances)
+Flattening unmatched subcell ringosc_buf in circuit tt_um_tt05_analog_test (1)(3 instances)
+Flattening unmatched subcell tg in circuit tt_um_tt05_analog_test (1)(3 instances)
+
+Cell tt_um_tt05_analog_test (0) disconnected node: clk
+Cell tt_um_tt05_analog_test (0) disconnected node: ena
+Cell tt_um_tt05_analog_test (0) disconnected node: rst_n
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[2]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[3]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[4]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[5]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[6]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[7]
+Cell tt_um_tt05_analog_test (0) disconnected node: ui_in[4]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[0]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[1]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[2]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[3]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[4]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[5]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[6]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[7]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_out[0]
+Cell tt_um_tt05_analog_test (0) disconnected node: uo_out[0]
+Cell tt_um_tt05_analog_test (1) disconnected node: clk
+Cell tt_um_tt05_analog_test (1) disconnected node: ena
+Cell tt_um_tt05_analog_test (1) disconnected node: rst_n
+Cell tt_um_tt05_analog_test (1) disconnected node: ui_in[4]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[0]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[1]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[2]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[3]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[4]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[5]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[2]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[6]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[3]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[7]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[4]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[5]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[6]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[7]
+Class tt_um_tt05_analog_test (0):  Merged 16 parallel devices.
+Class tt_um_tt05_analog_test (0):  Merged 4 series devices.
+Class tt_um_tt05_analog_test (1):  Merged 15 parallel devices.
+Class tt_um_tt05_analog_test (1):  Merged 4 series devices.
+Cell tt_um_tt05_analog_test (0) disconnected node: clk
+Cell tt_um_tt05_analog_test (0) disconnected node: ena
+Cell tt_um_tt05_analog_test (0) disconnected node: rst_n
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[2]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[3]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[4]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[5]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[6]
+Cell tt_um_tt05_analog_test (0) disconnected node: ua[7]
+Cell tt_um_tt05_analog_test (0) disconnected node: ui_in[4]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[0]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[1]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[2]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[3]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[4]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[5]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[6]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_in[7]
+Cell tt_um_tt05_analog_test (0) disconnected node: uio_out[0]
+Cell tt_um_tt05_analog_test (0) disconnected node: uo_out[0]
+Cell tt_um_tt05_analog_test (1) disconnected node: clk
+Cell tt_um_tt05_analog_test (1) disconnected node: ena
+Cell tt_um_tt05_analog_test (1) disconnected node: rst_n
+Cell tt_um_tt05_analog_test (1) disconnected node: ui_in[4]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[0]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[1]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[2]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[3]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[4]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[5]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[2]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[6]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[3]
+Cell tt_um_tt05_analog_test (1) disconnected node: uio_in[7]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[4]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[5]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[6]
+Cell tt_um_tt05_analog_test (1) disconnected node: ua[7]
+Subcircuit summary:
+Circuit 1: tt_um_tt05_analog_test          |Circuit 2: tt_um_tt05_analog_test          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (26)               |sky130_fd_pr__nfet_01v8 (26)               
+sky130_fd_pr__pfet_01v8 (40->26)           |sky130_fd_pr__pfet_01v8 (40->26)           
+sky130_fd_pr__res_xhigh_po_0p35 (36->30)   |sky130_fd_pr__res_xhigh_po_0p35 (36->31) * 
+Number of devices: 82 **Mismatch**         |Number of devices: 83 **Mismatch**         
+Number of nets: 57 **Mismatch**            |Number of nets: 58 **Mismatch**            
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: tt_um_tt05_analog_test          |Circuit 2: tt_um_tt05_analog_test          
+
+---------------------------------------------------------------------------------------
+Net: uio_oe[1]                             |Net: uio_oe[1]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_oe[2]                             |Net: uio_oe[2]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_oe[3]                             |Net: uio_oe[3]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_oe[4]                             |Net: uio_oe[4]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_oe[5]                             |Net: uio_oe[5]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_oe[6]                             |Net: uio_oe[6]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_oe[7]                             |Net: uio_oe[7]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_out[1]                            |Net: uio_out[1]                            
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_out[2]                            |Net: uio_out[2]                            
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_out[3]                            |Net: uio_out[3]                            
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_out[4]                            |Net: uio_out[4]                            
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_out[5]                            |Net: uio_out[5]                            
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_out[6]                            |Net: uio_out[6]                            
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_out[7]                            |Net: uio_out[7]                            
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uio_oe[0]                             |Net: uio_oe[0]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uo_out[1]                             |Net: uo_out[1]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uo_out[2]                             |Net: uo_out[2]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uo_out[3]                             |Net: uo_out[3]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uo_out[4]                             |Net: uo_out[4]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uo_out[5]                             |Net: uo_out[5]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uo_out[6]                             |Net: uo_out[6]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: uo_out[7]                             |Net: uo_out[7]                             
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: tt_um_tt05_analog_test_cell_0/uo_out[ |Net: uio_out[0]                            
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+                                           |                                           
+Net: VSUBS                                 |Net: uo_out[0]                             
+  sky130_fd_pr__nfet_01v8/(1|3) = 23       |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+  sky130_fd_pr__nfet_01v8/4 = 26           |                                           
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |                                           
+  sky130_fd_pr__res_xhigh_po_0p35/3 = 30   |                                           
+  sky130_fd_pr__nfet_01v8/2 = 1            |                                           
+  sky130_fd_pr__pfet_01v8/2 = 1            |                                           
+                                           |                                           
+(no matching net)                          |Net: VGND                                  
+                                           |  sky130_fd_pr__nfet_01v8/(1|3) = 23       
+                                           |  sky130_fd_pr__nfet_01v8/4 = 26           
+                                           |  sky130_fd_pr__res_xhigh_po_0p35/3 = 31   
+                                           |  sky130_fd_pr__nfet_01v8/2 = 1            
+                                           |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: tt_um_tt05_analog_test          |Circuit 2: tt_um_tt05_analog_test          
+
+---------------------------------------------------------------------------------------
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: dac/sky130_fd_pr__res_xhigh_po_0 
+  (1,2) = (106,1)                          |  (1,2) = (108,108)                        
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,106)                        |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+  (1,2) = (106,1)                          |  (1,2) = (108,1)                          
+  3 = 106                                  |  3 = 108                                  
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
+                                           |  (1,2) = (108,1)                          
+                                           |  3 = 108                                  
+                                           |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+
+Subcircuit pins:
+Circuit 1: tt_um_tt05_analog_test          |Circuit 2: tt_um_tt05_analog_test          
+-------------------------------------------|-------------------------------------------
+uio_oe[1]                                  |uio_oe[0] **Mismatch**                     
+uio_oe[2]                                  |uio_oe[1] **Mismatch**                     
+uio_oe[3]                                  |uio_oe[2] **Mismatch**                     
+uio_oe[4]                                  |uio_oe[3] **Mismatch**                     
+uio_oe[5]                                  |uio_oe[4] **Mismatch**                     
+uio_oe[6]                                  |uio_oe[5] **Mismatch**                     
+uio_oe[7]                                  |uio_oe[6] **Mismatch**                     
+uio_out[1]                                 |uio_oe[7] **Mismatch**                     
+uio_out[2]                                 |uio_out[0] **Mismatch**                    
+uio_out[3]                                 |uio_out[1] **Mismatch**                    
+uio_out[4]                                 |uio_out[2] **Mismatch**                    
+uio_out[5]                                 |uio_out[3] **Mismatch**                    
+uio_out[6]                                 |uio_out[4] **Mismatch**                    
+uio_out[7]                                 |uio_out[5] **Mismatch**                    
+uio_oe[0]                                  |uio_out[6] **Mismatch**                    
+uo_out[1]                                  |uio_out[7] **Mismatch**                    
+uo_out[2]                                  |uo_out[1] **Mismatch**                     
+uo_out[3]                                  |uo_out[2] **Mismatch**                     
+uo_out[4]                                  |uo_out[3] **Mismatch**                     
+uo_out[5]                                  |uo_out[4] **Mismatch**                     
+uo_out[6]                                  |uo_out[5] **Mismatch**                     
+uo_out[7]                                  |uo_out[6] **Mismatch**                     
+ui_in[6]                                   |ui_in[6]                                   
+VDPWR                                      |VPWR **Mismatch**                          
+ui_in[7]                                   |ui_in[7]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[0]                                   |ui_in[0]                                   
+ua[1]                                      |ua[1]                                      
+ua[0]                                      |ua[0]                                      
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+ua[2]                                      |ua[2]                                      
+ua[3]                                      |ua[3]                                      
+ua[4]                                      |ua[4]                                      
+ua[5]                                      |ua[5]                                      
+ua[6]                                      |ua[6]                                      
+ua[7]                                      |ua[7]                                      
+ui_in[4]                                   |ui_in[4]                                   
+uio_in[0]                                  |uio_in[0]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[7]                                  |uio_in[7]                                  
+(no matching pin)                          |uo_out[0]                                  
+(no matching pin)                          |uo_out[7]                                  
+(no matching pin)                          |VGND                                       
+(no matching pin)                          |proxydac                                   
+(no matching pin)                          |proxydac0                                  
+(no matching pin)                          |proxydac1                                  
+(no matching pin)                          |proxydac2                                  
+(no matching pin)                          |proxyout_dac                               
+(no matching pin)                          |proxyout_ro                                
+(no matching pin)                          |proxyenable                                
+(no matching pin)                          |proxyout_short                             
+uio_out[0]                                 |(no matching pin)                          
+uo_out[0]                                  |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for tt_um_tt05_analog_test and tt_um_tt05_analog_test altered to match.
+Device classes tt_um_tt05_analog_test and tt_um_tt05_analog_test are equivalent.
+
+Final result: Top level cell failed pin matching.
