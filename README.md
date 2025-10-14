@@ -1,5 +1,12 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
+This is an updated analog design of tt-05 analog test by Harald Pretl. 
+
+The first part is a 3 bit R2R dac which uses the first 3 digital pins and outputs to ua1
+It also contains a ring oscilator which uses ui6 digital pin and outputs to ua0
+
+VLSB is ~0.21V
+
 # Tiny Tapeout Analog Project Template
 
 - [Read the documentation for project](docs/info.md)

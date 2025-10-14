@@ -1,9 +1,9 @@
-v {xschem version=3.4.4 file_version=1.2}
+v {xschem version=3.4.5 file_version=1.2}
 K {type=subcircuit
 format="@name @pinlist @symname"
 template="name=x1"
 }
-T {@symname} -90 -6 0 0 0.3 0.3 {}
+T {@symname} -117 -6 0 0 0.3 0.3 {}
 T {@name} 135 -332 0 0 0.2 0.2 {}
 L 4 -130 -320 130 -320 {}
 L 4 -130 320 130 320 {}
@@ -33,9 +33,9 @@ T {uio_oe[6]} 125 -194 0 1 0.2 0.2 {}
 B 5 147.5 -172.5 152.5 -167.5 {name=uio_oe[7] dir=out}
 L 4 130 -170 150 -170 {}
 T {uio_oe[7]} 125 -174 0 1 0.2 0.2 {}
-B 5 -152.5 -312.5 -147.5 -307.5 {name=VPWR dir=in}
+B 5 -152.5 -312.5 -147.5 -307.5 {name=VDPWR dir=in}
 L 4 -150 -310 -130 -310 {}
-T {VPWR} -125 -314 0 0 0.2 0.2 {}
+T {VDPWR} -125 -314 0 0 0.2 0.2 {}
 B 5 147.5 -152.5 152.5 -147.5 {name=uio_out[0] dir=out}
 L 4 130 -150 150 -150 {}
 T {uio_out[0]} 125 -154 0 1 0.2 0.2 {}

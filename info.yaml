@@ -15,7 +15,7 @@ project:
   uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_LukeMcCubbin_DAC_RingO"
+  top_module:  "tt_um_tt05_analog_test"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -28,10 +28,10 @@ pinout:
   ui[0]: "dac0"
   ui[1]: "dac1"
   ui[2]: "dac2"
-  ui[3]: "out_dac"
-  ui[4]: "out_ro"
-  ui[5]: "out_short"
-  ui[6]: ""
+  ui[3]: "tg_dac"
+  ui[4]: ""
+  ui[5]: "tg_ro"
+  ui[6]: "tg_short"
   ui[7]: ""
 
   # Outputs

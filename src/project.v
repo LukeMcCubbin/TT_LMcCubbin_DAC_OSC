@@ -20,45 +20,52 @@ module tt_um_LukeMcCubbin_DAC_OSC (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-    tt_um_tt05_analog_test tt_um_tt05_analog_test(
+tt_um_tt05_analog_test_top tt_um_tt05_analog_test(
         .VPWR(VDPWR),
         .VGND(VGND),
-        .clk(ua[0]),
-        .dac(ua[1]),
-        .dac0(ui_in[0]),
-        .dac1(ui_in[1]),
-        .dac2(ui_in[2]),
-        .out_dac(ui_in[3]),
-        .out_ro(ui_in[5]),
-        .enable(ui_in[6]),
-        .out_short(ui_in[7])
+        .clk(clk),
+        .enable(ena),
+        .reset(rst_n),
+        .ui_in0(ui_in[0]),
+        .ui_in1(ui_in[1]),
+        .ui_in2(ui_in[2]),
+        .ui_in3(ui_in[3]),
+        .ui_in4(ui_in[4]),
+        .ui_in5(ui_in[5]),
+        .ui_in6(ui_in[6]),
+        .ui_in7(ui_in[7]),
+        .ua0(ua[0]),
+        .ua1(ua[1]),
+
     );
-    
-    assign uo_out[0] = res_xhigh_po_0p35;
-    assign uo_out[1] = res_xhigh_po_0p35;
-    assign uo_out[2] = res_xhigh_po_0p35;
-    assign uo_out[3] = res_xhigh_po_0p35;
-    assign uo_out[4] = res_xhigh_po_0p35;
-    assign uo_out[5] = res_xhigh_po_0p35;
-    assign uo_out[6] = res_xhigh_po_0p35;
-    assign uo_out[7] = res_xhigh_po_0p35;
 
-    assign uio_out[0] = res_xhigh_po_0p35;
-    assign uio_out[1] = res_xhigh_po_0p35;
-    assign uio_out[2] = res_xhigh_po_0p35;
-    assign uio_out[3] = res_xhigh_po_0p35;
-    assign uio_out[4] = res_xhigh_po_0p35;
-    assign uio_out[5] = res_xhigh_po_0p35;
-    assign uio_out[6] = res_xhigh_po_0p35;
-    assign uio_out[7] = res_xhigh_po_0p35;
+    assign uo_out[0] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uo_out[1] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uo_out[2] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uo_out[3] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uo_out[4] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uo_out[5] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uo_out[6] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uo_out[7] = sky130_fd_pr__res_xhigh_po_0p35;
 
-    assign uio_oe[0] = res_xhigh_po_0p35;
-    assign uio_oe[1] = res_xhigh_po_0p35;
-    assign uio_oe[2] = res_xhigh_po_0p35;
-    assign uio_oe[3] = res_xhigh_po_0p35;
-    assign uio_oe[4] = res_xhigh_po_0p35;
-    assign uio_oe[5] = res_xhigh_po_0p35;
-    assign uio_oe[6] = res_xhigh_po_0p35;
-    assign uio_oe[7] = res_xhigh_po_0p35;
+    assign uio_out[0] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_out[1] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_out[2] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_out[3] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_out[4] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_out[5] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_out[6] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_out[7] = sky130_fd_pr__res_xhigh_po_0p35;
+
+    assign uio_oe[0] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_oe[1] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_oe[2] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_oe[3] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_oe[4] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_oe[5] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_oe[6] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_oe[7] = sky130_fd_pr__res_xhigh_po_0p35;
+  
+
     
 endmodule

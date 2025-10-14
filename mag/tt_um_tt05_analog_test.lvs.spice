@@ -553,7 +553,7 @@ XXM3_xtgbyp_0 ua[1] ui_in[7] ua[0] VGND XM3_xtgbyp
 + uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[0]
 + uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0]
 + uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0]
-+ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR
++ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR VGND
 Xtt_um_tt05_analog_test_cell_0 clk ena rst_n ua[0] ua[1] tt_um_tt05_analog_test_cell_0/ua[2]
 + tt_um_tt05_analog_test_cell_0/ua[3] tt_um_tt05_analog_test_cell_0/ua[4] tt_um_tt05_analog_test_cell_0/ua[5]
 + tt_um_tt05_analog_test_cell_0/ua[6] tt_um_tt05_analog_test_cell_0/ua[7] ui_in[0]
@@ -562,9 +562,9 @@ Xtt_um_tt05_analog_test_cell_0 clk ena rst_n ua[0] ua[1] tt_um_tt05_analog_test_
 + tt_um_tt05_analog_test_cell_0/uio_in[2] tt_um_tt05_analog_test_cell_0/uio_in[3]
 + tt_um_tt05_analog_test_cell_0/uio_in[4] tt_um_tt05_analog_test_cell_0/uio_in[5]
 + tt_um_tt05_analog_test_cell_0/uio_in[6] tt_um_tt05_analog_test_cell_0/uio_in[7]
-+ uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] tt_um_tt05_analog_test_cell_0/uio_oe[5]
-+ uio_oe[6] uio_oe[7] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6]
-+ uio_out[7] uio_oe[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6]
-+ uo_out[7] tt_um_tt05_analog_test_cell_0/uo_out[7] VDPWR VSUBS tt_um_tt05_analog_test_cell
++ uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7]
++ uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7]
++ uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
++ VDPWR VGND tt_um_tt05_analog_test_cell
 .ends
 

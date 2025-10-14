@@ -1,4 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -24,13 +24,13 @@ lab=ua[1]}
 N 1720 -560 1980 -560 {
 lab=ua[0]}
 N 280 -1360 840 -1360 {
-lab=VPWR}
+lab=VDPWR}
 N 840 -970 840 -650 {
-lab=VPWR}
+lab=VDPWR}
 N 840 -650 860 -650 {
-lab=VPWR}
+lab=VDPWR}
 N 840 -970 860 -970 {
-lab=VPWR}
+lab=VDPWR}
 N 280 -160 820 -160 {
 lab=VGND}
 N 820 -570 820 -160 {
@@ -296,7 +296,7 @@ lab=VGND}
 N 1780 -660 1780 -640 {
 lab=VGND}
 N 840 -1360 840 -970 {
-lab=VPWR}
+lab=VDPWR}
 N 1780 -940 1820 -940 {
 lab=VGND}
 N 1880 -940 1980 -940 {
@@ -306,19 +306,19 @@ lab=ui_in[6]}
 N 1780 -1000 1780 -940 {
 lab=VGND}
 N 840 -1360 1240 -1360 {
-lab=VPWR}
+lab=VDPWR}
 N 1240 -1360 1240 -1280 {
-lab=VPWR}
+lab=VDPWR}
 N 1240 -1280 1260 -1280 {
-lab=VPWR}
+lab=VDPWR}
 N 1240 -1280 1240 -1110 {
-lab=VPWR}
+lab=VDPWR}
 N 1240 -1110 1260 -1110 {
-lab=VPWR}
+lab=VDPWR}
 N 1240 -1110 1240 -780 {
-lab=VPWR}
+lab=VDPWR}
 N 1240 -780 1260 -780 {
-lab=VPWR}
+lab=VDPWR}
 N 1220 -1240 1260 -1240 {
 lab=VGND}
 N 1220 -740 1220 -160 {
@@ -386,7 +386,7 @@ lab=ui_in[3]}
 N 440 -760 1260 -760 {
 lab=ui_in[3]}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Harald Pretl"}
-C {devices/ipin.sym} 280 -1360 0 0 {name=p1 lab=VPWR}
+C {devices/ipin.sym} 280 -1360 0 0 {name=p1 lab=VDPWR}
 C {devices/ipin.sym} 280 -160 0 0 {name=p2 lab=VGND}
 C {devices/iopin.sym} 1980 -560 0 0 {name=p3 lab=ua[0]}
 C {devices/ipin.sym} 280 -1220 0 0 {name=p4 lab=ena}
@@ -458,145 +458,145 @@ C {devices/noconn.sym} 280 -420 0 1 {name=l18}
 C {dac.sym} 1010 -610 0 0 {name=xdac}
 C {ringosc.sym} 1010 -950 0 0 {name=xringosc}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1680 3 0 {name=R1
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1640 3 0 {name=R2
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1600 3 0 {name=R3
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1560 3 0 {name=R4
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1520 3 0 {name=R5
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1480 3 0 {name=R6
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1440 3 0 {name=R7
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1400 3 0 {name=R8
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1300 3 0 {name=R9
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1260 3 0 {name=R10
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1220 3 0 {name=R11
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1180 3 0 {name=R12
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1140 3 0 {name=R13
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1100 3 0 {name=R14
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1060 3 0 {name=R15
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1020 3 0 {name=R16
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -900 3 0 {name=R18
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -860 3 0 {name=R19
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -820 3 0 {name=R20
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -780 3 0 {name=R21
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -740 3 0 {name=R22
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -700 3 0 {name=R23
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -660 3 0 {name=R24
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 W=0.35}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -940 3 0 {name=R17
-L=0.35
+L=0.51
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
