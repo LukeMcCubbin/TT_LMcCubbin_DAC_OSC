@@ -197,10 +197,19 @@ X0 a_50_n531# a_n50_n557# a_n108_n531# a_n210_n643# sky130_fd_pr__nfet_01v8 ad=1
 X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
-.subckt XRSTR_0_xdac a_n118_n572# a_n616_140# a_n782_n572# a_380_n572# a_48_140# a_380_140#
-+ a_n616_n572# a_n948_140# a_214_n572# a_214_140# a_n284_140# a_48_n572# a_712_n572#
-+ a_546_140# a_n948_n572# a_n118_140# a_546_n572# a_n1078_n702# a_878_140# a_n450_140#
-+ a_n450_n572# a_712_140# a_n284_n572# a_878_n572# a_n782_140#
+.subckt XRSTR_0_xdac sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n3385_454# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n3151_454#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n2917_454# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n1981_n84#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n1981_454# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n1747_n84#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n1747_454# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n3853_n84#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n4087_n84# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n3853_454#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n3619_n84# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n4087_454#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n3619_454# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n2683_n84#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n2449_n84# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n2683_454#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n2215_n84# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n2449_454#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n2215_454# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n4451_n214#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n4321_n84# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n4321_454#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n3385_n84# sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n3151_n84#
++ sky130_fd_pr__res_high_po_0p69_AWHN5X_0/a_n2917_n84# VSUBS
 X0 a_n782_140# a_n782_n572# a_n1078_n702# sky130_fd_pr__res_xhigh_po_0p35 l=1.56
 X1 a_n118_140# a_n118_n572# a_n1078_n702# sky130_fd_pr__res_xhigh_po_0p35 l=1.56
 X2 a_n948_140# a_n948_n572# a_n1078_n702# sky130_fd_pr__res_xhigh_po_0p35 l=1.56
@@ -466,11 +475,11 @@ XXM1_xro3_xringosc_0 li_13407_4589# VPWR VPWR li_13727_2949# XM1_xro3_xringosc
 XXR6_0 VGND VGND uio_oe[5] XR6
 XXR22_0 VGND VGND uo_out[5] XR22
 XXM2A_xdrv_dummy_xdac_0 li_15873_11955# VGND VPWR VPWR XM2A_xdrv_dummy_xdac
-XXM4A_xdrv_b1_xdac_0 li_15299_13487# li_15835_13685# VPWR VPWR XM4A_xdrv_b1_xdac
+XXM4A_xdrv_b1_xdac_0 li_15529_16059# li_15835_13685# VPWR VPWR XM4A_xdrv_b1_xdac
 XXR15_0 VGND VGND uio_out[6] XR15
 XXM1_xdrv_b2_xdac_0 VGND VGND ui_in[2] li_12975_15035# XM1_xdrv_b2_xdac
 XXM2B_xbuf2_xringosc_0 VPWR VPWR li_18173_4615# li_18147_7809# XM2B_xbuf2_xringosc
-XXM4A_xtgdac_0 li_14587_13985# VPWR li_18955_16543# ua[1] XM4A_xtgdac
+XXM4A_xtgdac_0 li_14965_17005# VPWR li_18955_16543# ua[1] XM4A_xtgdac
 XXM1_xbuf3_xringosc_0 VGND li_13407_4589# li_13307_8263# VGND XM1_xbuf3_xringosc
 XXM1_xro2_xringosc_0 li_18173_4615# VPWR VPWR li_13407_4589# XM1_xro2_xringosc
 XXR4_0 VGND VGND uio_oe[3] XR4
@@ -479,8 +488,8 @@ XXR13_0 VGND VGND uio_out[4] XR13
 XXM1_xro1_xringosc_0 li_13727_2949# VPWR VPWR li_18173_4615# XM1_xro1_xringosc
 XXM2_xtgbyp_0 li_19021_13259# ui_in[7] VPWR VPWR XM2_xtgbyp
 XXM2B_xbuf1_xringosc_0 VPWR VPWR li_13727_2949# li_14709_1403# XM2B_xbuf1_xringosc
-XXM3_xtgdac_0 li_14587_13985# ui_in[3] ua[1] VGND XM3_xtgdac
-XXM4B_xdrv_dummy_xdac_0 li_15299_12823# li_15873_11955# VPWR VPWR XM4B_xdrv_dummy_xdac
+XXM3_xtgdac_0 li_14965_17005# ui_in[3] ua[1] VGND XM3_xtgdac
+XXM4B_xdrv_dummy_xdac_0 li_15445_15127# li_15873_11955# VPWR VPWR XM4B_xdrv_dummy_xdac
 XXM1_xbuf2_xringosc_0 VGND li_18173_4615# li_18147_7809# VGND XM1_xbuf2_xringosc
 XXM1_xtgro_0 VGND ui_in[5] li_13229_10315# VGND XM1_xtgro
 XXM3_xdrv_b0_xdac_0 VGND VGND li_13449_11383# li_14745_11543# XM3_xdrv_b0_xdac
@@ -491,13 +500,13 @@ XXR11_0 VGND VGND uio_out[2] XR11
 XXM4A_xtgro_0 li_13307_8263# VPWR li_13229_10315# ua[0] XM4A_xtgro
 XXM1_xbuf1_xringosc_0 VGND li_13727_2949# li_14709_1403# VGND XM1_xbuf1_xringosc
 XXMpowerdn_xro3_xringosc_0 li_13407_4589# VPWR VPWR VPWR XMpowerdn_xro3_xringosc
-XXM3_xdrv_b1_xdac_0 VGND VGND li_15835_13685# li_15299_13487# XM3_xdrv_b1_xdac
+XXM3_xdrv_b1_xdac_0 VGND VGND li_15835_13685# li_15529_16059# XM3_xdrv_b1_xdac
 XXR9_0 VGND VGND uio_out[0] XR9
-XXRSTR_0_xdac_0 li_14587_13487# li_15299_14151# li_12895_14471# li_14587_13155# li_15299_13487#
-+ li_14745_11543# li_14587_13985# VGND li_14587_13155# li_14587_13819# li_15299_13653#
-+ li_14587_13487# li_14587_12823# li_14587_13819# VGND li_15299_13653# li_14587_12823#
-+ VGND VGND li_15299_13653# li_14587_13985# li_15299_12823# li_14587_13819# VGND li_15299_14151#
-+ XRSTR_0_xdac
+XXRSTR_0_xdac_0 li_15485_16773# li_15485_16773# li_15529_16059# li_14955_15157# li_15445_15127#
++ VGND VGND li_14965_17005# li_12895_14471# li_15477_17037# li_14965_17005# li_15477_17037#
++ li_15485_16773# li_14975_15623# li_14975_15623# li_14963_16539# li_14955_15157#
++ li_14745_11543# li_14963_16539# VGND VGND VGND li_14963_16539# li_14971_16299# li_14971_16299#
++ VGND XRSTR_0_xdac
 XXM2B_xdrv_b1_xdac_0 li_15835_13685# ui_in[1] VPWR VPWR XM2B_xdrv_b1_xdac
 XXMcap1_xro3_xringosc_0 VGND VGND li_13727_2949# VGND XMcap1_xro3_xringosc
 XXMpowerdn_xro2_xringosc_0 li_18173_4615# VPWR VPWR VPWR XMpowerdn_xro2_xringosc
@@ -532,16 +541,16 @@ XXM2B_xro3_xringosc_0 VGND li_15131_5569# VGND li_13407_4589# XM2B_xro3_xringosc
 XXMcap2_xro2_xringosc_0 li_13407_4589# VPWR VPWR VPWR XMcap2_xro2_xringosc
 XXR12_0 VGND VGND uio_out[3] XR12
 XXM1_xdrv_b0_xdac_0 VGND VGND ui_in[0] li_13449_11383# XM1_xdrv_b0_xdac
-XXM3_xdrv_dummy_xdac_0 VGND VGND li_15873_11955# li_15299_12823# XM3_xdrv_dummy_xdac
+XXM3_xdrv_dummy_xdac_0 VGND VGND li_15873_11955# li_15445_15127# XM3_xdrv_dummy_xdac
 XXM1_xtgdac_0 VGND ui_in[3] li_18955_16543# VGND XM1_xtgdac
 XXM2A_xbuf1_xringosc_0 VPWR VPWR li_13727_2949# li_14709_1403# XM2A_xbuf1_xringosc
 XXM2B_xro2_xringosc_0 VGND li_19201_5077# VGND li_18173_4615# XM2B_xro2_xringosc
-XXM4A_xdrv_dummy_xdac_0 li_15299_12823# li_15873_11955# VPWR VPWR XM4A_xdrv_dummy_xdac
+XXM4A_xdrv_dummy_xdac_0 li_15445_15127# li_15873_11955# VPWR VPWR XM4A_xdrv_dummy_xdac
 XXM4A_xtgbyp_0 ua[1] VPWR li_19021_13259# ua[0] XM4A_xtgbyp
 XXR1_0 VGND VGND uio_oe[0] XR1
 XXR10_0 VGND VGND uio_out[1] XR10
-XXM4B_xdrv_b1_xdac_0 li_15299_13487# li_15835_13685# VPWR VPWR XM4B_xdrv_b1_xdac
-XXM4B_xtgdac_0 li_14587_13985# VPWR li_18955_16543# ua[1] XM4B_xtgdac
+XXM4B_xdrv_b1_xdac_0 li_15529_16059# li_15835_13685# VPWR VPWR XM4B_xdrv_b1_xdac
+XXM4B_xtgdac_0 li_14965_17005# VPWR li_18955_16543# ua[1] XM4B_xtgdac
 XXMcap2_xro1_xringosc_0 li_18173_4615# VPWR VPWR VPWR XMcap2_xro1_xringosc
 XXM2A_xdrv_b2_xdac_0 li_12975_15035# ui_in[2] VPWR VPWR XM2A_xdrv_b2_xdac
 XXM2B_xro1_xringosc_0 VGND li_16351_3837# VGND li_13727_2949# XM2B_xro1_xringosc

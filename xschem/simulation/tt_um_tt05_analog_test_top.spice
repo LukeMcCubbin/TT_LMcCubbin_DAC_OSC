@@ -88,23 +88,23 @@ xtgbyp VDPWR ua[0] ua[1] ui_in[7] VGND tg
 xdrv_b2 vdd in2 v2 vss dac_drv
 xdrv_b1 vdd in1 v1 vss dac_drv
 xdrv_b0 vdd in0 v0 vss dac_drv
-XR1 net6 vout vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
 xdrv_dummy vdd vss net4 vss dac_drv
-XR2 net1 v2 vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
-XR3 vout net1 vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
 .save v(vout)
 .save v(v2)
 .save v(v1)
 .save v(v0)
-XR4 net5 net6 vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
-XR5 net7 v1 vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
-XR6 net6 net7 vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
-XR8 net2 v0 vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
-XR9 net5 net2 vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
-XR10 net3 net4 vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
-XR11 net5 net3 vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
-XRdummy1 vss vss vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
-XRdummy2 vss vss vss sky130_fd_pr__res_xhigh_po_0p35 L=1.56 mult=1 m=1
+XR1 net6 vout vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XR2 net1 v2 vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XR3 vout net1 vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XR4 net5 net6 vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XR5 net7 v1 vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XR6 net6 net7 vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XRdummy1 vss vss vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XR8 net2 v0 vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XR9 net5 net2 vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XR10 net3 net4 vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XR11 net5 net3 vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
+XRdummy2 vss vss vss sky130_fd_pr__res_high_po_0p69 L=0.69 mult=1 m=1
 .ends
 
 

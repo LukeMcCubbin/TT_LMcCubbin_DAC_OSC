@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1760470287
+timestamp 1760727663
 << metal3 >>
 rect 200 18111 9248 18112
 rect 195 17713 201 18111
@@ -212,7 +212,7 @@ rect 26160 14 26678 194
 rect 26498 0 26678 14
 rect 30362 0 30542 510
 use tt_um_tt05_analog_test_cell  tt_um_tt05_analog_test_cell_0
-timestamp 1760454724
+timestamp 1760727663
 transform 1 0 0 0 1 0
 box 768 0 30594 22304
 << labels >>
