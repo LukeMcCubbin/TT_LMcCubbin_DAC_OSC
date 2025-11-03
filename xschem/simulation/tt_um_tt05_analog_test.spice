@@ -1,13 +1,9 @@
 ** sch_path: /home/ttuser/TT_LMcCubbin_DAC_OSC/xschem/tt_um_tt05_analog_test.sch
-.subckt tt_um_tt05_analog_test uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] VDPWR uio_out[0]
-+ uio_out[1] clk uio_out[2] ena rst_n uio_out[3] uio_out[4] uio_out[5] uio_out[6] ui_in[0] ui_in[1] uio_out[7] ui_in[2] uo_out[0] ui_in[3]
-+ uo_out[1] ui_in[4] ui_in[5] uo_out[2] ui_in[6] uo_out[3] ui_in[7] uo_out[4] uo_out[5] uio_in[0] uo_out[6] uio_in[1] uo_out[7] uio_in[2]
-+ uio_in[3] ua[0] uio_in[4] ua[1] uio_in[5] ua[2] uio_in[6] ua[3] uio_in[7] ua[4] ua[5] ua[6] ua[7] VGND
-*.PININFO VDPWR:I VGND:I ua[0]:B ena:I clk:I rst_n:I ua[1]:B ua[2]:B ua[3]:B ua[4]:B ua[5]:B ua[6]:B ua[7]:B uo_out[0]:O
-*+ uo_out[1]:O uo_out[2]:O uo_out[3]:O uo_out[4]:O uo_out[5]:O uo_out[6]:O uo_out[7]:O ui_in[0]:I ui_in[1]:I ui_in[2]:I ui_in[3]:I ui_in[4]:I
-*+ ui_in[5]:I ui_in[6]:I ui_in[7]:I uio_in[0]:I uio_in[1]:I uio_in[2]:I uio_in[3]:I uio_in[4]:I uio_in[5]:I uio_in[6]:I uio_in[7]:I
-*+ uio_out[0]:O uio_out[1]:O uio_out[2]:O uio_out[3]:O uio_out[4]:O uio_out[5]:O uio_out[6]:O uio_out[7]:O uio_oe[0]:O uio_oe[1]:O uio_oe[2]:O
-*+ uio_oe[3]:O uio_oe[4]:O uio_oe[5]:O uio_oe[6]:O uio_oe[7]:O
+.subckt tt_um_tt05_analog_test VDPWR clk ena rst_n ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7]
++ uio_in[0] uio_in[1] uio_in[2] uio_in[3] ua[0] uio_in[4] ua[1] uio_in[5] ua[2] uio_in[6] ua[3] uio_in[7] ua[4] ua[5] ua[6] ua[7] VGND
+*.PININFO VDPWR:I VGND:I ena:I clk:I rst_n:I ua[1]:B ua[2]:B ua[3]:B ua[4]:B ua[5]:B ua[6]:B ua[7]:B ui_in[0]:I ui_in[1]:I
+*+ ui_in[2]:I ui_in[3]:I ui_in[4]:I ui_in[5]:I ui_in[6]:I ui_in[7]:I uio_in[0]:I uio_in[1]:I uio_in[2]:I uio_in[3]:I uio_in[4]:I uio_in[5]:I
+*+ uio_in[6]:I uio_in[7]:I ua[0]:B
 * noconn ua[2]
 * noconn ua[3]
 * noconn ua[4]
@@ -26,30 +22,6 @@
 * noconn uio_in[7]
 xdac VDPWR dac_int ui_in[2] ui_in[1] ui_in[0] VGND dac
 xringosc VDPWR ro_int ui_in[6] VGND ringosc
-XR1 uio_oe[0] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR2 uio_oe[1] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR3 uio_oe[2] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR4 uio_oe[3] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR5 uio_oe[4] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR6 uio_oe[5] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR7 uio_oe[6] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR8 uio_oe[7] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR9 uio_out[0] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR10 uio_out[1] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR11 uio_out[2] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR12 uio_out[3] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR13 uio_out[4] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR14 uio_out[5] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR15 uio_out[6] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR16 uio_out[7] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR18 uo_out[1] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR19 uo_out[2] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR20 uo_out[3] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR21 uo_out[4] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR22 uo_out[5] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR23 uo_out[6] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR24 uo_out[7] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
-XR17 uo_out[0] VGND VGND sky130_fd_pr__res_xhigh_po_0p35 L=0.51 mult=1 m=1
 * noconn ena
 xtgro VDPWR ua[0] ro_int ui_in[5] VGND tg
 xtgdac VDPWR ua[1] dac_int ui_in[3] VGND tg

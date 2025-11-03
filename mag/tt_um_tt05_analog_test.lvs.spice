@@ -10,10 +10,6 @@ X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1
 **devattr s=58000,2116 d=58000,2116
 .ends
 
-.subckt XR19 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
 .subckt XM1_xdrv_dummy_xdac a_n210_n643# a_50_n531# a_n50_n557# a_n108_n531#
 X0 a_50_n531# a_n50_n557# a_n108_n531# a_n210_n643# sky130_fd_pr__nfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=0.5
 **devattr s=58000,2116 d=58000,2116
@@ -22,18 +18,6 @@ X0 a_50_n531# a_n50_n557# a_n108_n531# a_n210_n643# sky130_fd_pr__nfet_01v8 ad=1
 .subckt XM2_xtgro a_n108_n236# a_n50_n262# a_50_n236# w_n246_n384#
 X0 a_50_n236# a_n50_n262# a_n108_n236# w_n246_n384# sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
 **devattr s=23200,916 d=23200,916
-.ends
-
-.subckt XR8 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
-.subckt XR17 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
-.subckt XR24 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
 .subckt XM2B_xbuf3_xringosc a_50_n1036# w_n246_n1184# a_n50_n1062# a_n108_n1036#
@@ -56,14 +40,6 @@ X0 a_1000_n86# a_n1000_n112# a_n1058_n86# w_n1196_n234# sky130_fd_pr__pfet_01v8 
 **devattr s=5800,316 d=5800,316
 .ends
 
-.subckt XR6 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
-.subckt XR22 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
 .subckt XM2A_xdrv_dummy_xdac a_n108_n536# a_n50_n562# a_50_n536# w_n246_n684#
 X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=0.5
 **devattr s=58000,2116 d=58000,2116
@@ -72,10 +48,6 @@ X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1
 .subckt XM4A_xdrv_b1_xdac a_n108_n536# a_n50_n562# a_50_n536# w_n246_n684#
 X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=0.5
 **devattr s=58000,2116 d=58000,2116
-.ends
-
-.subckt XR15 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
 .subckt XM1_xdrv_b2_xdac a_n210_n643# a_50_n531# a_n50_n557# a_n108_n531#
@@ -101,18 +73,6 @@ X0 a_50_n1031# a_n50_n1057# a_n108_n1031# a_n210_n1143# sky130_fd_pr__nfet_01v8 
 .subckt XM1_xro2_xringosc a_n1000_n112# a_1000_n86# w_n1196_n234# a_n1058_n86#
 X0 a_1000_n86# a_n1000_n112# a_n1058_n86# w_n1196_n234# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=10
 **devattr s=5800,316 d=5800,316
-.ends
-
-.subckt XR4 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
-.subckt XR20 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
-.subckt XR13 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
 .subckt XM1_xro1_xringosc a_n1000_n112# a_1000_n86# w_n1196_n234# a_n1058_n86#
@@ -155,10 +115,6 @@ X0 a_50_n531# a_n50_n557# a_n108_n531# a_n210_n643# sky130_fd_pr__nfet_01v8 ad=1
 **devattr s=58000,2116 d=58000,2116
 .ends
 
-.subckt XR2 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
 .subckt XM2B_xdrv_b0_xdac a_n108_n536# a_n50_n562# a_50_n536# w_n246_n684#
 X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=0.5
 **devattr s=58000,2116 d=58000,2116
@@ -167,10 +123,6 @@ X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1
 .subckt XM4A_xdrv_b2_xdac a_n108_n536# a_n50_n562# a_50_n536# w_n246_n684#
 X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=0.5
 **devattr s=58000,2116 d=58000,2116
-.ends
-
-.subckt XR11 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
 .subckt XM4A_xtgro a_50_n1036# w_n246_n1184# a_n50_n1062# a_n108_n1036#
@@ -191,10 +143,6 @@ X0 a_100_n1036# a_n100_n1062# a_n158_n1036# w_n296_n1184# sky130_fd_pr__pfet_01v
 .subckt XM3_xdrv_b1_xdac a_n210_n643# a_50_n531# a_n50_n557# a_n108_n531#
 X0 a_50_n531# a_n50_n557# a_n108_n531# a_n210_n643# sky130_fd_pr__nfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=0.5
 **devattr s=58000,2116 d=58000,2116
-.ends
-
-.subckt XR9 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
 .subckt XRSTR_0_xdac a_n118_n572# a_n616_140# a_n782_n572# a_380_n572# a_48_140# a_380_140#
@@ -230,10 +178,6 @@ X0 a_100_n1036# a_n100_n1062# a_n158_n1036# w_n296_n1184# sky130_fd_pr__pfet_01v
 **devattr s=116000,4116 d=116000,4116
 .ends
 
-.subckt XR18 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
 .subckt XM1_xtgbyp a_50_n131# a_n50_n157# a_n108_n131# a_n210_n243#
 X0 a_50_n131# a_n50_n157# a_n108_n131# a_n210_n243# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
 **devattr s=11600,516 d=11600,516
@@ -259,10 +203,6 @@ X0 a_50_n1036# a_n50_n1062# a_n108_n1036# w_n246_n1184# sky130_fd_pr__pfet_01v8 
 **devattr s=116000,4116 d=116000,4116
 .ends
 
-.subckt XR23 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
 .subckt XM2A_xdrv_b0_xdac a_n108_n536# a_n50_n562# a_50_n536# w_n246_n684#
 X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=0.5
 **devattr s=58000,2116 d=58000,2116
@@ -276,14 +216,6 @@ X0 a_200_n1031# a_n200_n1057# a_n258_n1031# a_n360_n1143# sky130_fd_pr__nfet_01v
 .subckt XMpowerdn_xro1_xringosc a_n158_n1036# a_100_n1036# w_n296_n1184# a_n100_n1062#
 X0 a_100_n1036# a_n100_n1062# a_n158_n1036# w_n296_n1184# sky130_fd_pr__pfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
 **devattr s=116000,4116 d=116000,4116
-.ends
-
-.subckt XR7 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
-.subckt XR16 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
 .subckt XM3_xdrv_b2_xdac a_n210_n643# a_50_n531# a_n50_n557# a_n108_n531#
@@ -306,14 +238,6 @@ X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1
 **devattr s=58000,2116 d=58000,2116
 .ends
 
-.subckt XR5 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
-.subckt XR21 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
 .subckt XM4B_xdrv_b0_xdac a_n108_n536# a_n50_n562# a_50_n536# w_n246_n684#
 X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=0.5
 **devattr s=58000,2116 d=58000,2116
@@ -327,10 +251,6 @@ X0 a_200_n1031# a_n200_n1057# a_n258_n1031# a_n360_n1143# sky130_fd_pr__nfet_01v
 .subckt XMcap2_xro3_xringosc a_n200_n1062# a_n258_n1036# a_200_n1036# w_n396_n1184#
 X0 a_200_n1036# a_n200_n1062# a_n258_n1036# w_n396_n1184# sky130_fd_pr__pfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=2
 **devattr s=116000,4116 d=116000,4116
-.ends
-
-.subckt XR14 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
 .subckt XM2A_xbuf2_xringosc a_50_n1036# w_n246_n1184# a_n50_n1062# a_n108_n1036#
@@ -353,10 +273,6 @@ X0 a_50_n1031# a_n50_n1057# a_n108_n1031# a_n210_n1143# sky130_fd_pr__nfet_01v8 
 **devattr s=116000,4116 d=116000,4116
 .ends
 
-.subckt XR3 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
 .subckt XM2B_xro3_xringosc a_1000_n81# a_n1058_n81# a_n1160_n193# a_n1000_n107#
 X0 a_1000_n81# a_n1000_n107# a_n1058_n81# a_n1160_n193# sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=10
 **devattr s=5800,316 d=5800,316
@@ -365,10 +281,6 @@ X0 a_1000_n81# a_n1000_n107# a_n1058_n81# a_n1160_n193# sky130_fd_pr__nfet_01v8 
 .subckt XMcap2_xro2_xringosc a_n200_n1062# a_n258_n1036# a_200_n1036# w_n396_n1184#
 X0 a_200_n1036# a_n200_n1062# a_n258_n1036# w_n396_n1184# sky130_fd_pr__pfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=2
 **devattr s=116000,4116 d=116000,4116
-.ends
-
-.subckt XR12 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
 .subckt XM1_xdrv_b0_xdac a_n210_n643# a_50_n531# a_n50_n557# a_n108_n531#
@@ -404,14 +316,6 @@ X0 a_50_n536# a_n50_n562# a_n108_n536# w_n246_n684# sky130_fd_pr__pfet_01v8 ad=1
 .subckt XM4A_xtgbyp a_50_n1036# w_n246_n1184# a_n50_n1062# a_n108_n1036#
 X0 a_50_n1036# a_n50_n1062# a_n108_n1036# w_n246_n1184# sky130_fd_pr__pfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=0.5
 **devattr s=116000,4116 d=116000,4116
-.ends
-
-.subckt XR1 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
-.ends
-
-.subckt XR10 a_n35_n467# a_n165_n597# a_n35_35#
-X0 a_n35_35# a_n35_n467# a_n165_n597# sky130_fd_pr__res_xhigh_po_0p35 l=0.51
 .ends
 
 .subckt XM4B_xdrv_b1_xdac a_n108_n536# a_n50_n562# a_50_n536# w_n246_n684#
@@ -453,29 +357,19 @@ X0 a_50_n1031# a_n50_n1057# a_n108_n1031# a_n210_n1143# sky130_fd_pr__nfet_01v8 
 + VPWR VGND
 XXM1_xdrv_b1_xdac_0 VGND VGND ui_in[1] li_15835_13685# XM1_xdrv_b1_xdac
 XXM4A_xdrv_b0_xdac_0 li_14745_11543# li_13449_11383# VPWR VPWR XM4A_xdrv_b0_xdac
-XXR19_0 VGND VGND uo_out[2] XR19
 XXM1_xdrv_dummy_xdac_0 VGND VGND VGND li_15873_11955# XM1_xdrv_dummy_xdac
 XXM2_xtgro_0 li_13229_10315# ui_in[5] VPWR VPWR XM2_xtgro
-XXR8_0 VGND VGND uio_oe[7] XR8
-XXR17_0 VGND VGND uo_out[0] XR17
-XXR24_0 VGND VGND uo_out[7] XR24
 XXM2B_xbuf3_xringosc_0 VPWR VPWR li_13407_4589# li_13307_8263# XM2B_xbuf3_xringosc
 XXM4B_xdrv_b2_xdac_0 li_12895_14471# li_12975_15035# VPWR VPWR XM4B_xdrv_b2_xdac
 XXM4B_xtgro_0 li_13307_8263# VPWR li_13229_10315# ua[0] XM4B_xtgro
 XXM1_xro3_xringosc_0 li_13407_4589# VPWR VPWR li_13727_2949# XM1_xro3_xringosc
-XXR6_0 VGND VGND uio_oe[5] XR6
-XXR22_0 VGND VGND uo_out[5] XR22
 XXM2A_xdrv_dummy_xdac_0 li_15873_11955# VGND VPWR VPWR XM2A_xdrv_dummy_xdac
 XXM4A_xdrv_b1_xdac_0 li_15931_15859# li_15835_13685# VPWR VPWR XM4A_xdrv_b1_xdac
-XXR15_0 VGND VGND uio_out[6] XR15
 XXM1_xdrv_b2_xdac_0 VGND VGND ui_in[2] li_12975_15035# XM1_xdrv_b2_xdac
 XXM2B_xbuf2_xringosc_0 VPWR VPWR li_18173_4615# li_18147_7809# XM2B_xbuf2_xringosc
 XXM4A_xtgdac_0 li_15219_16357# VPWR li_18955_16543# ua[1] XM4A_xtgdac
 XXM1_xbuf3_xringosc_0 VGND li_13407_4589# li_13307_8263# VGND XM1_xbuf3_xringosc
 XXM1_xro2_xringosc_0 li_18173_4615# VPWR VPWR li_13407_4589# XM1_xro2_xringosc
-XXR4_0 VGND VGND uio_oe[3] XR4
-XXR20_0 VGND VGND uo_out[3] XR20
-XXR13_0 VGND VGND uio_out[4] XR13
 XXM1_xro1_xringosc_0 li_13727_2949# VPWR VPWR li_18173_4615# XM1_xro1_xringosc
 XXM2_xtgbyp_0 li_19021_13259# ui_in[7] VPWR VPWR XM2_xtgbyp
 XXM2B_xbuf1_xringosc_0 VPWR VPWR li_13727_2949# li_14709_1403# XM2B_xbuf1_xringosc
@@ -484,15 +378,12 @@ XXM4B_xdrv_dummy_xdac_0 li_15931_15195# li_15873_11955# VPWR VPWR XM4B_xdrv_dumm
 XXM1_xbuf2_xringosc_0 VGND li_18173_4615# li_18147_7809# VGND XM1_xbuf2_xringosc
 XXM1_xtgro_0 VGND ui_in[5] li_13229_10315# VGND XM1_xtgro
 XXM3_xdrv_b0_xdac_0 VGND VGND li_13449_11383# li_14745_11543# XM3_xdrv_b0_xdac
-XXR2_0 VGND VGND uio_oe[1] XR2
 XXM2B_xdrv_b0_xdac_0 li_13449_11383# ui_in[0] VPWR VPWR XM2B_xdrv_b0_xdac
 XXM4A_xdrv_b2_xdac_0 li_12895_14471# li_12975_15035# VPWR VPWR XM4A_xdrv_b2_xdac
-XXR11_0 VGND VGND uio_out[2] XR11
 XXM4A_xtgro_0 li_13307_8263# VPWR li_13229_10315# ua[0] XM4A_xtgro
 XXM1_xbuf1_xringosc_0 VGND li_13727_2949# li_14709_1403# VGND XM1_xbuf1_xringosc
 XXMpowerdn_xro3_xringosc_0 li_13407_4589# VPWR VPWR VPWR XMpowerdn_xro3_xringosc
 XXM3_xdrv_b1_xdac_0 VGND VGND li_15835_13685# li_15931_15859# XM3_xdrv_b1_xdac
-XXR9_0 VGND VGND uio_out[0] XR9
 XXRSTR_0_xdac_0 li_15219_15859# li_15931_16523# li_12895_14471# li_15219_15527# li_15931_15859#
 + li_14745_11543# li_15219_16357# VGND li_15219_15527# li_15219_16191# li_15931_16025#
 + li_15219_15859# li_15219_15195# li_15219_16191# VGND li_15931_16025# li_15219_15195#
@@ -501,36 +392,27 @@ XXRSTR_0_xdac_0 li_15219_15859# li_15931_16523# li_12895_14471# li_15219_15527# 
 XXM2B_xdrv_b1_xdac_0 li_15835_13685# ui_in[1] VPWR VPWR XM2B_xdrv_b1_xdac
 XXMcap1_xro3_xringosc_0 VGND VGND li_13727_2949# VGND XMcap1_xro3_xringosc
 XXMpowerdn_xro2_xringosc_0 li_18173_4615# VPWR VPWR VPWR XMpowerdn_xro2_xringosc
-XXR18_0 VGND VGND uo_out[1] XR18
 XXM1_xtgbyp_0 VGND ui_in[7] li_19021_13259# VGND XM1_xtgbyp
 XXM2B_xdrv_dummy_xdac_0 li_15873_11955# VGND VPWR VPWR XM2B_xdrv_dummy_xdac
 XXM2_xtgdac_0 li_18955_16543# ui_in[3] VPWR VPWR XM2_xtgdac
 XXM2A_xro3_xringosc_0 li_15131_5569# li_13727_2949# VGND li_13407_4589# XM2A_xro3_xringosc
 XXM4B_xtgbyp_0 ua[1] VPWR li_19021_13259# ua[0] XM4B_xtgbyp
-XXR23_0 VGND VGND uo_out[6] XR23
 XXM2A_xdrv_b0_xdac_0 li_13449_11383# ui_in[0] VPWR VPWR XM2A_xdrv_b0_xdac
 XXMcap1_xro2_xringosc_0 VGND VGND li_13407_4589# VGND XMcap1_xro2_xringosc
 XXMpowerdn_xro1_xringosc_0 li_13727_2949# VPWR VPWR ui_in[6] XMpowerdn_xro1_xringosc
-XXR7_1 VGND VGND uio_oe[6] XR7
-XXR16_0 VGND VGND uio_out[7] XR16
 XXM3_xdrv_b2_xdac_0 VGND VGND li_12975_15035# li_12895_14471# XM3_xdrv_b2_xdac
 XXM2A_xbuf3_xringosc_0 VPWR VPWR li_13407_4589# li_13307_8263# XM2A_xbuf3_xringosc
 XXM2A_xro2_xringosc_0 li_19201_5077# li_13407_4589# VGND li_18173_4615# XM2A_xro2_xringosc
 XXM2B_xdrv_b2_xdac_0 li_12975_15035# ui_in[2] VPWR VPWR XM2B_xdrv_b2_xdac
-XXR5_0 VGND VGND uio_oe[4] XR5
-XXR21_0 VGND VGND uo_out[4] XR21
 XXM4B_xdrv_b0_xdac_0 li_14745_11543# li_13449_11383# VPWR VPWR XM4B_xdrv_b0_xdac
 XXMcap1_xro1_xringosc_0 VGND VGND li_18173_4615# VGND XMcap1_xro1_xringosc
 XXMcap2_xro3_xringosc_0 li_13727_2949# VPWR VPWR VPWR XMcap2_xro3_xringosc
-XXR14_0 VGND VGND uio_out[5] XR14
 XXM2A_xbuf2_xringosc_0 VPWR VPWR li_18173_4615# li_18147_7809# XM2A_xbuf2_xringosc
 XXM2A_xdrv_b1_xdac_0 li_15835_13685# ui_in[1] VPWR VPWR XM2A_xdrv_b1_xdac
 XXM2A_xro1_xringosc_0 li_16351_3837# li_18173_4615# VGND li_13727_2949# XM2A_xro1_xringosc
 XXM3_xtgro_0 li_13307_8263# ui_in[5] ua[0] VGND XM3_xtgro
-XXR3_0 VGND VGND uio_oe[2] XR3
 XXM2B_xro3_xringosc_0 VGND li_15131_5569# VGND li_13407_4589# XM2B_xro3_xringosc
 XXMcap2_xro2_xringosc_0 li_13407_4589# VPWR VPWR VPWR XMcap2_xro2_xringosc
-XXR12_0 VGND VGND uio_out[3] XR12
 XXM1_xdrv_b0_xdac_0 VGND VGND ui_in[0] li_13449_11383# XM1_xdrv_b0_xdac
 XXM3_xdrv_dummy_xdac_0 VGND VGND li_15873_11955# li_15931_15195# XM3_xdrv_dummy_xdac
 XXM1_xtgdac_0 VGND ui_in[3] li_18955_16543# VGND XM1_xtgdac
@@ -538,22 +420,65 @@ XXM2A_xbuf1_xringosc_0 VPWR VPWR li_13727_2949# li_14709_1403# XM2A_xbuf1_xringo
 XXM2B_xro2_xringosc_0 VGND li_19201_5077# VGND li_18173_4615# XM2B_xro2_xringosc
 XXM4A_xdrv_dummy_xdac_0 li_15931_15195# li_15873_11955# VPWR VPWR XM4A_xdrv_dummy_xdac
 XXM4A_xtgbyp_0 ua[1] VPWR li_19021_13259# ua[0] XM4A_xtgbyp
-XXR1_0 VGND VGND uio_oe[0] XR1
-XXR10_0 VGND VGND uio_out[1] XR10
 XXM4B_xdrv_b1_xdac_0 li_15931_15859# li_15835_13685# VPWR VPWR XM4B_xdrv_b1_xdac
 XXM4B_xtgdac_0 li_15219_16357# VPWR li_18955_16543# ua[1] XM4B_xtgdac
 XXMcap2_xro1_xringosc_0 li_18173_4615# VPWR VPWR VPWR XMcap2_xro1_xringosc
 XXM2A_xdrv_b2_xdac_0 li_12975_15035# ui_in[2] VPWR VPWR XM2A_xdrv_b2_xdac
 XXM2B_xro1_xringosc_0 VGND li_16351_3837# VGND li_13727_2949# XM2B_xro1_xringosc
 XXM3_xtgbyp_0 ua[1] ui_in[7] ua[0] VGND XM3_xtgbyp
+R0 VGND uio_out[1] 0.000000
+R1 VGND uo_out[4] 0.000000
+R2 VGND uio_oe[7] 0.000000
+R3 VGND uo_out[2] 0.000000
+R4 VGND uio_out[0] 0.000000
+R5 VGND uo_out[3] 0.000000
+R6 VGND uio_oe[6] 0.000000
+R7 VGND uo_out[1] 0.000000
+R8 VGND uio_oe[7] 0.000000
+R9 VGND uo_out[2] 0.000000
+R10 VGND uio_oe[5] 0.000000
+R11 VGND uo_out[0] 0.000000
+R12 VGND uio_oe[6] 0.000000
+R13 VGND uo_out[1] 0.000000
+R14 VGND uio_oe[4] 0.000000
+R15 VGND uio_out[7] 0.000000
+R16 VGND uio_oe[5] 0.000000
+R17 VGND uo_out[0] 0.000000
+R18 VGND uio_oe[3] 0.000000
+R19 VGND uio_out[6] 0.000000
+R20 VGND uio_out[7] 0.000000
+R21 VGND uio_oe[1] 0.000000
+R22 VGND uio_oe[2] 0.000000
+R23 VGND uio_out[4] 0.000000
+R24 VGND uio_out[5] 0.000000
+R25 VGND uo_out[7] 0.000000
+R26 VGND uio_out[3] 0.000000
+R27 VGND uo_out[6] 0.000000
+R28 VGND uo_out[5] 0.000000
+R29 VGND uio_oe[4] 0.000000
+R30 VGND uio_oe[3] 0.000000
+R31 VGND uio_oe[2] 0.000000
+R32 VGND uio_oe[1] 0.000000
+R33 VGND uio_oe[0] 0.000000
+R34 VGND uio_out[6] 0.000000
+R35 VGND uio_out[4] 0.000000
+R36 VGND uio_out[5] 0.000000
+R37 VGND uo_out[7] 0.000000
+R38 VGND uio_oe[0] 0.000000
+R39 VGND uio_out[2] 0.000000
+R40 VGND uio_out[3] 0.000000
+R41 VGND uo_out[6] 0.000000
+R42 VGND uio_out[1] 0.000000
+R43 VGND uo_out[4] 0.000000
+R44 VGND uio_out[2] 0.000000
+R45 VGND uo_out[5] 0.000000
+R46 VGND uio_out[0] 0.000000
+R47 VGND uo_out[3] 0.000000
 .ends
 
 .subckt tt_um_tt05_analog_test clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6]
 + ua[7] ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uio_in[0]
-+ uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[0]
-+ uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0]
-+ uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0]
-+ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR VGND
++ uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] VGND VDPWR
 Xtt_um_tt05_analog_test_cell_0 clk ena rst_n ua[0] ua[1] tt_um_tt05_analog_test_cell_0/ua[2]
 + tt_um_tt05_analog_test_cell_0/ua[3] tt_um_tt05_analog_test_cell_0/ua[4] tt_um_tt05_analog_test_cell_0/ua[5]
 + tt_um_tt05_analog_test_cell_0/ua[6] tt_um_tt05_analog_test_cell_0/ua[7] ui_in[0]
@@ -562,9 +487,7 @@ Xtt_um_tt05_analog_test_cell_0 clk ena rst_n ua[0] ua[1] tt_um_tt05_analog_test_
 + tt_um_tt05_analog_test_cell_0/uio_in[2] tt_um_tt05_analog_test_cell_0/uio_in[3]
 + tt_um_tt05_analog_test_cell_0/uio_in[4] tt_um_tt05_analog_test_cell_0/uio_in[5]
 + tt_um_tt05_analog_test_cell_0/uio_in[6] tt_um_tt05_analog_test_cell_0/uio_in[7]
-+ uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7]
-+ uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7]
-+ uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
-+ VDPWR VGND tt_um_tt05_analog_test_cell
++ VGND VGND VGND VGND VGND VGND VGND VGND VGND VGND VGND VGND VGND VGND VGND VGND
++ VGND VGND VGND VGND VGND VGND VGND VGND VDPWR VGND tt_um_tt05_analog_test_cell
 .ends
 

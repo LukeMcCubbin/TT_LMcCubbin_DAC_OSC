@@ -39,32 +39,32 @@ tt_um_tt05_analog_test_top tt_um_tt05_analog_test(
 
     );
 
-    assign uo_out[0] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uo_out[1] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uo_out[2] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uo_out[3] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uo_out[4] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uo_out[5] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uo_out[6] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uo_out[7] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uo_out[0] = VGND;
+    assign uo_out[1] = VGND;
+    assign uo_out[2] = VGND;
+    assign uo_out[3] = VGND;
+    assign uo_out[4] = VGND;
+    assign uo_out[5] = VGND;
+    assign uo_out[6] = VGND;
+    assign uo_out[7] = VGND;
 
-    assign uio_out[0] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_out[1] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_out[2] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_out[3] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_out[4] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_out[5] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_out[6] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_out[7] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_out[0] = VGND;
+    assign uio_out[1] = VGND;
+    assign uio_out[2] = VGND;
+    assign uio_out[3] = VGND;
+    assign uio_out[4] = VGND;
+    assign uio_out[5] = VGND;
+    assign uio_out[6] = VGND;
+    assign uio_out[7] = VGND;
 
-    assign uio_oe[0] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_oe[1] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_oe[2] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_oe[3] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_oe[4] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_oe[5] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_oe[6] = sky130_fd_pr__res_xhigh_po_0p35;
-    assign uio_oe[7] = sky130_fd_pr__res_xhigh_po_0p35;
+    assign uio_oe[0] = VGND;
+    assign uio_oe[1] = VGND;
+    assign uio_oe[2] = VGND;
+    assign uio_oe[3] = VGND;
+    assign uio_oe[4] = VGND;
+    assign uio_oe[5] = VGND;
+    assign uio_oe[6] = VGND;
+    assign uio_oe[7] = VGND;
   
 
     

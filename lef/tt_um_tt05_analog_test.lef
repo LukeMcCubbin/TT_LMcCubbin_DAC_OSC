@@ -1,3 +1,7 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
 MACRO tt_um_tt05_analog_test
   CLASS BLOCK ;
   FOREIGN tt_um_tt05_analog_test ;
@@ -231,6 +235,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_oe[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 49.990 224.760 50.290 225.760 ;
@@ -239,6 +245,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_oe[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 47.230 224.760 47.530 225.760 ;
@@ -247,6 +255,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_oe[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 44.470 224.760 44.770 225.760 ;
@@ -255,6 +265,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_oe[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 41.710 224.760 42.010 225.760 ;
@@ -263,6 +275,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_oe[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 38.950 224.760 39.250 225.760 ;
@@ -271,6 +285,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_oe[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 36.190 224.760 36.490 225.760 ;
@@ -279,6 +295,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_oe[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 33.430 224.760 33.730 225.760 ;
@@ -287,6 +305,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_oe[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 30.670 224.760 30.970 225.760 ;
@@ -295,6 +315,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 72.070 224.760 72.370 225.760 ;
@@ -303,6 +325,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 69.310 224.760 69.610 225.760 ;
@@ -311,6 +335,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 66.550 224.760 66.850 225.760 ;
@@ -319,6 +345,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 63.790 224.760 64.090 225.760 ;
@@ -327,6 +355,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_out[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 61.030 224.760 61.330 225.760 ;
@@ -335,6 +365,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_out[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 58.270 224.760 58.570 225.760 ;
@@ -343,6 +375,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 55.510 224.760 55.810 225.760 ;
@@ -351,6 +385,8 @@ MACRO tt_um_tt05_analog_test
   PIN uio_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 52.750 224.760 53.050 225.760 ;
@@ -359,6 +395,8 @@ MACRO tt_um_tt05_analog_test
   PIN uo_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 94.150 224.760 94.450 225.760 ;
@@ -367,6 +405,8 @@ MACRO tt_um_tt05_analog_test
   PIN uo_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 91.390 224.760 91.690 225.760 ;
@@ -375,6 +415,8 @@ MACRO tt_um_tt05_analog_test
   PIN uo_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 88.630 224.760 88.930 225.760 ;
@@ -383,6 +425,8 @@ MACRO tt_um_tt05_analog_test
   PIN uo_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 85.870 224.760 86.170 225.760 ;
@@ -391,6 +435,8 @@ MACRO tt_um_tt05_analog_test
   PIN uo_out[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 83.110 224.760 83.410 225.760 ;
@@ -399,6 +445,8 @@ MACRO tt_um_tt05_analog_test
   PIN uo_out[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 80.350 224.760 80.650 225.760 ;
@@ -407,6 +455,8 @@ MACRO tt_um_tt05_analog_test
   PIN uo_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 77.590 224.760 77.890 225.760 ;
@@ -415,6 +465,8 @@ MACRO tt_um_tt05_analog_test
   PIN uo_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 7.500000 ;
+    ANTENNADIFFAREA 140.291000 ;
     PORT
       LAYER met4 ;
         RECT 74.830 224.760 75.130 225.760 ;
@@ -438,7 +490,7 @@ MACRO tt_um_tt05_analog_test
   END VGND
   OBS
       LAYER li1 ;
-        RECT 22.480 5.645 100.840 109.000 ;
+        RECT 22.730 5.645 100.840 108.945 ;
       LAYER met1 ;
         RECT 22.625 6.165 102.990 111.400 ;
       LAYER met2 ;
