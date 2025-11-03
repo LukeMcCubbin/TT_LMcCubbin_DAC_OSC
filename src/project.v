@@ -4,8 +4,8 @@
  */
 
 `default_nettype none
-
-module tt_um_LukeMcCubbin_DAC_OSC (
+//module TT_LMcCubbin_DAC_OSC (
+module tt_um_tt05_analog_test (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply
