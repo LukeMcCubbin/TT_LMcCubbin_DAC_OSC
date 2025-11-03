@@ -171,7 +171,8 @@ Cell tt_um_tt05_analog_test (1) disconnected node: ua[4]
 Cell tt_um_tt05_analog_test (1) disconnected node: ua[5]
 Cell tt_um_tt05_analog_test (1) disconnected node: ua[6]
 Cell tt_um_tt05_analog_test (1) disconnected node: ua[7]
-Class tt_um_tt05_analog_test (0):  Merged 25 parallel devices.
+Class tt_um_tt05_analog_test (0):  Merged 15 parallel devices.
+Class tt_um_tt05_analog_test (0):  Merged 4 series devices.
 Class tt_um_tt05_analog_test (1):  Merged 15 parallel devices.
 Class tt_um_tt05_analog_test (1):  Merged 4 series devices.
 Cell tt_um_tt05_analog_test (0) disconnected node: clk
@@ -215,379 +216,73 @@ Circuit 1: tt_um_tt05_analog_test          |Circuit 2: tt_um_tt05_analog_test
 -------------------------------------------|-------------------------------------------
 sky130_fd_pr__nfet_01v8 (26)               |sky130_fd_pr__nfet_01v8 (26)               
 sky130_fd_pr__pfet_01v8 (40->26)           |sky130_fd_pr__pfet_01v8 (40->26)           
-sky130_fd_pr__res_xhigh_po_0p35 (36->25)   |sky130_fd_pr__res_xhigh_po_0p35 (24) **Mis 
-(no matching element)                      |sky130_fd_pr__res_high_po_0p69 (12->7)     
-Number of devices: 77 **Mismatch**         |Number of devices: 83 **Mismatch**         
-Number of nets: 59 **Mismatch**            |Number of nets: 58 **Mismatch**            
+sky130_fd_pr__res_xhigh_po_0p35 (36->31)   |sky130_fd_pr__res_xhigh_po_0p35 (36->31)   
+Number of devices: 83                      |Number of devices: 83                      
+Number of nets: 58                         |Number of nets: 58                         
 ---------------------------------------------------------------------------------------
-NET mismatches: Class fragments follow (with fanout counts):
-Circuit 1: tt_um_tt05_analog_test          |Circuit 2: tt_um_tt05_analog_test          
-
----------------------------------------------------------------------------------------
-Net: /tt_um_tt05_analog_test_cell_0/li_147 |Net: dac_int                               
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__res_high_po_0p69/(1|2) = 2 
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-                                           |                                           
-Net: /tt_um_tt05_analog_test_cell_0/li_128 |Net: /dac/v2                               
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  sky130_fd_pr__res_high_po_0p69/(1|2) = 1 
-                                           |                                           
-Net: /tt_um_tt05_analog_test_cell_0/li_155 |Net: /dac/net4                             
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  sky130_fd_pr__res_high_po_0p69/(1|2) = 1 
-                                           |                                           
-Net: uio_oe[0]                             |Net: uio_oe[0]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_oe[1]                             |Net: uio_oe[1]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_oe[2]                             |Net: uio_oe[2]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_oe[3]                             |Net: uio_oe[3]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_oe[4]                             |Net: uio_oe[4]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_oe[5]                             |Net: uio_oe[5]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_oe[6]                             |Net: uio_oe[6]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_oe[7]                             |Net: uio_oe[7]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_out[0]                            |Net: uio_out[0]                            
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_out[1]                            |Net: uio_out[1]                            
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_out[2]                            |Net: uio_out[2]                            
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_out[3]                            |Net: uio_out[3]                            
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_out[4]                            |Net: uio_out[4]                            
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_out[5]                            |Net: uio_out[5]                            
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_out[6]                            |Net: uio_out[6]                            
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uio_out[7]                            |Net: uio_out[7]                            
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uo_out[1]                             |Net: uo_out[1]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uo_out[2]                             |Net: uo_out[2]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uo_out[3]                             |Net: uo_out[3]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uo_out[4]                             |Net: uo_out[4]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uo_out[5]                             |Net: uo_out[5]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uo_out[6]                             |Net: uo_out[6]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uo_out[7]                             |Net: uo_out[7]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: uo_out[0]                             |Net: uo_out[0]                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-                                           |                                           
-Net: VGND                                  |Net: VGND                                  
-  sky130_fd_pr__nfet_01v8/(1|3) = 23       |  sky130_fd_pr__nfet_01v8/(1|3) = 23       
-  sky130_fd_pr__nfet_01v8/4 = 26           |  sky130_fd_pr__nfet_01v8/4 = 26           
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
-  sky130_fd_pr__res_xhigh_po_0p35/3 = 24   |  sky130_fd_pr__res_xhigh_po_0p35/3 = 24   
-  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
-  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
-                                           |  sky130_fd_pr__res_high_po_0p69/3 = 7     
-                                           |  sky130_fd_pr__res_high_po_0p69/(1|2) = 2 
-                                           |                                           
-Net: /tt_um_tt05_analog_test_cell_0/li_154 |(no matching net)                          
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |                                           
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |                                           
-                                           |                                           
-Net: /tt_um_tt05_analog_test_cell_0//XRSTR |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |                                           
-                                           |                                           
-Net: /tt_um_tt05_analog_test_cell_0//XRSTR |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |                                           
-                                           |                                           
-Net: /tt_um_tt05_analog_test_cell_0//XRSTR |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p35/3 = 1    |                                           
-                                           |                                           
-Net: /tt_um_tt05_analog_test_cell_0/li_149 |(no matching net)                          
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |                                           
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ui_in[2]                              |Net: ui_in[2]                              
-  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
-  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
-                                           |                                           
-Net: ui_in[1]                              |(no matching net)                          
-  sky130_fd_pr__nfet_01v8/2 = 1            |                                           
-  sky130_fd_pr__pfet_01v8/2 = 1            |                                           
-                                           |                                           
-Net: ui_in[0]                              |(no matching net)                          
-  sky130_fd_pr__pfet_01v8/2 = 1            |                                           
-  sky130_fd_pr__nfet_01v8/2 = 1            |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: /tt_um_tt05_analog_test_cell_0/li_129 |Net: /dac/dac_drv:drv_b2/net1              
-  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/2 = 1            
-                                           |                                           
-Net: /tt_um_tt05_analog_test_cell_0/li_134 |(no matching net)                          
-  sky130_fd_pr__pfet_01v8/2 = 1            |                                           
-  sky130_fd_pr__nfet_01v8/2 = 1            |                                           
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |                                           
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |                                           
-                                           |                                           
-Net: /tt_um_tt05_analog_test_cell_0/li_158 |(no matching net)                          
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |                                           
-  sky130_fd_pr__pfet_01v8/2 = 1            |                                           
-  sky130_fd_pr__nfet_01v8/2 = 1            |                                           
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: VDPWR                                 |Net: VDPWR                                 
-  sky130_fd_pr__pfet_01v8/(1|3) = 26       |  sky130_fd_pr__pfet_01v8/(1|3) = 26       
-  sky130_fd_pr__pfet_01v8/4 = 26           |  sky130_fd_pr__pfet_01v8/4 = 26           
-  sky130_fd_pr__pfet_01v8/2 = 2            |  sky130_fd_pr__pfet_01v8/2 = 2            
----------------------------------------------------------------------------------------
-DEVICE mismatches: Class fragments follow (with node fanout counts):
-Circuit 1: tt_um_tt05_analog_test          |Circuit 2: tt_um_tt05_analog_test          
-
----------------------------------------------------------------------------------------
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (1,1)                            |  (1,2) = (108,1)                          
-  3 = 1                                    |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: sky130_fd_pr__res_xhigh_po_0p35: 
-  (1,2) = (99,1)                           |  (1,2) = (108,1)                          
-  3 = 99                                   |  3 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: dac/sky130_fd_pr__res_high_po_0p 
-  (1,2) = (99,1)                           |  (1,2) = (3,3)                            
-  3 = 99                                   |  3 = 108                                  
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: dac/dac_drv:drv_b2/sky130_fd_pr_ 
-  (1,3) = (54,4)                           |  (1,3) = (54,4)                           
-  2 = 2                                    |  2 = 2                                    
-  4 = 54                                   |  4 = 54                                   
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |(no matching instance)                     
-  (1,3) = (54,4)                           |                                           
-  2 = 2                                    |                                           
-  4 = 54                                   |                                           
-                                           |                                           
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |(no matching instance)                     
-  (1,3) = (54,4)                           |                                           
-  2 = 2                                    |                                           
-  4 = 54                                   |                                           
-                                           |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: dac/dac_drv:drv_b2/sky130_fd_pr_ 
-  (1,3) = (54,2)                           |  (1,3) = (54,3)                           
-  2 = 4                                    |  2 = 4                                    
-  4 = 54                                   |  4 = 54                                   
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |(no matching instance)                     
-  (1,3) = (54,2)                           |                                           
-  2 = 4                                    |                                           
-  4 = 54                                   |                                           
-                                           |                                           
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |(no matching instance)                     
-  (1,3) = (54,2)                           |                                           
-  2 = 4                                    |                                           
-  4 = 54                                   |                                           
-                                           |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: dac/dac_drv:drv_b2/sky130_fd_pr_ 
-  (1,3) = (99,2)                           |  (1,3) = (108,3)                          
-  2 = 4                                    |  2 = 4                                    
-  4 = 99                                   |  4 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |(no matching instance)                     
-  (1,3) = (99,2)                           |                                           
-  2 = 4                                    |                                           
-  4 = 99                                   |                                           
-                                           |                                           
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |(no matching instance)                     
-  (1,3) = (99,2)                           |                                           
-  2 = 4                                    |                                           
-  4 = 99                                   |                                           
-                                           |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: tt_um_tt05_analog_test_cell_0//X |Instance: dac/dac_drv:drv_b2/sky130_fd_pr_ 
-  (1,3) = (99,4)                           |  (1,3) = (108,4)                          
-  2 = 2                                    |  2 = 2                                    
-  4 = 99                                   |  4 = 108                                  
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |(no matching instance)                     
-  (1,3) = (99,4)                           |                                           
-  2 = 2                                    |                                           
-  4 = 99                                   |                                           
-                                           |                                           
-                                           |                                           
-Instance: tt_um_tt05_analog_test_cell_0//X |(no matching instance)                     
-  (1,3) = (99,4)                           |                                           
-  2 = 2                                    |                                           
-  4 = 99                                   |                                           
-                                           |                                           
----------------------------------------------------------------------------------------
-Netlists do not match.
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: tt_um_tt05_analog_test          |Circuit 2: tt_um_tt05_analog_test          
 -------------------------------------------|-------------------------------------------
-uio_oe[0]                                  |uio_oe[2] **Mismatch**                     
-uio_oe[1]                                  |uio_oe[3] **Mismatch**                     
-uio_oe[2]                                  |uio_oe[4] **Mismatch**                     
-uio_oe[3]                                  |uio_oe[5] **Mismatch**                     
-uio_oe[4]                                  |uio_oe[6] **Mismatch**                     
-uio_oe[5]                                  |uio_oe[7] **Mismatch**                     
-uio_oe[6]                                  |uio_out[0] **Mismatch**                    
-uio_oe[7]                                  |uio_out[1] **Mismatch**                    
-uio_out[0]                                 |uio_out[2] **Mismatch**                    
-uio_out[1]                                 |uio_out[3] **Mismatch**                    
-uio_out[2]                                 |uio_out[4] **Mismatch**                    
-uio_out[3]                                 |uio_out[5] **Mismatch**                    
-uio_out[4]                                 |uio_out[6] **Mismatch**                    
-uio_out[5]                                 |uio_out[7] **Mismatch**                    
-uio_out[6]                                 |uo_out[1] **Mismatch**                     
-uio_out[7]                                 |uo_out[2] **Mismatch**                     
-uo_out[0]                                  |uo_out[3] **Mismatch**                     
-uo_out[1]                                  |uo_out[4] **Mismatch**                     
-uo_out[2]                                  |uo_out[5] **Mismatch**                     
-uo_out[3]                                  |uo_out[6] **Mismatch**                     
-uo_out[4]                                  |uo_out[7] **Mismatch**                     
-uo_out[5]                                  |uo_out[0] **Mismatch**                     
-uo_out[6]                                  |VGND **Mismatch**                          
+VGND                                       |VGND                                       
+VDPWR                                      |VDPWR                                      
+ui_in[6]                                   |ui_in[6]                                   
+uio_oe[0]                                  |uio_oe[0]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[7]                                  |uio_oe[7]                                  
+uio_out[0]                                 |uio_out[0]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[7]                                 |uio_out[7]                                 
+uo_out[1]                                  |uo_out[1]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uo_out[3]                                  |uo_out[3]                                  
+uo_out[4]                                  |uo_out[4]                                  
+uo_out[5]                                  |uo_out[5]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[7]                                  |uo_out[7]                                  
+uo_out[0]                                  |uo_out[0]                                  
+ui_in[7]                                   |ui_in[7]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[0]                                   |ui_in[0]                                   
+ua[1]                                      |ua[1]                                      
+ua[0]                                      |ua[0]                                      
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+ua[2]                                      |ua[2]                                      
+ua[3]                                      |ua[3]                                      
+ua[4]                                      |ua[4]                                      
+ua[5]                                      |ua[5]                                      
+ua[6]                                      |ua[6]                                      
+ua[7]                                      |ua[7]                                      
+ui_in[4]                                   |ui_in[4]                                   
+uio_in[0]                                  |uio_in[0]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[7]                                  |uio_in[7]                                  
+---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes tt_um_tt05_analog_test and tt_um_tt05_analog_test are equivalent.
 
-Final result: Netlists do not match.
+Final result: Circuits match uniquely.
+.

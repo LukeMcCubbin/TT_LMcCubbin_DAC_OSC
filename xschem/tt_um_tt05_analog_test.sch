@@ -24,13 +24,13 @@ lab=ua[1]}
 N 1720 -560 1980 -560 {
 lab=ua[0]}
 N 280 -1360 840 -1360 {
-lab=VDPWR}
+lab=VPWR}
 N 840 -970 840 -650 {
-lab=VDPWR}
+lab=VPWR}
 N 840 -650 860 -650 {
-lab=VDPWR}
+lab=VPWR}
 N 840 -970 860 -970 {
-lab=VDPWR}
+lab=VPWR}
 N 280 -160 820 -160 {
 lab=VGND}
 N 820 -570 820 -160 {
@@ -296,7 +296,7 @@ lab=VGND}
 N 1780 -660 1780 -640 {
 lab=VGND}
 N 840 -1360 840 -970 {
-lab=VDPWR}
+lab=VPWR}
 N 1780 -940 1820 -940 {
 lab=VGND}
 N 1880 -940 1980 -940 {
@@ -306,19 +306,19 @@ lab=ui_in[6]}
 N 1780 -1000 1780 -940 {
 lab=VGND}
 N 840 -1360 1240 -1360 {
-lab=VDPWR}
+lab=VPWR}
 N 1240 -1360 1240 -1280 {
-lab=VDPWR}
+lab=VPWR}
 N 1240 -1280 1260 -1280 {
-lab=VDPWR}
+lab=VPWR}
 N 1240 -1280 1240 -1110 {
-lab=VDPWR}
+lab=VPWR}
 N 1240 -1110 1260 -1110 {
-lab=VDPWR}
+lab=VPWR}
 N 1240 -1110 1240 -780 {
-lab=VDPWR}
+lab=VPWR}
 N 1240 -780 1260 -780 {
-lab=VDPWR}
+lab=VPWR}
 N 1220 -1240 1260 -1240 {
 lab=VGND}
 N 1220 -740 1220 -160 {
